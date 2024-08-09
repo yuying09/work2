@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+  font-family: "Castoro", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.banner-text{
+    font-size: 128px;
+    line-height: 1.5;
+    letter-spacing: 0.12em;
+    font-weight: 400;
+}
+
+.banner-img{
+    margin: 0 auto;
+    display: block;
+}
+
+.desc{
+    background-color: #EFEFEF;
+    padding: 48px;
+}
+
+.desc-text{
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.info-tit{
+    color: #AE0000;
+    font-size: 40px;
+    line-height: 1.5;
+    border-bottom:#AE0000 3px solid ;
+}
+
+.info-con{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.info-year{
+    color: #949494;
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic;
+}
+.pt-30{
+    padding-top: 120px;
+}
+
+
+.w-50{
+    width: 50%;
+}   
+
+.footer{
+    background-color: #000;
+    text-align: center;
+    padding: 64px;
+}
+
+.footer li{
+    display: inline-block;
+}
+
+.ml-auto{margin-left: auto;}
+
+.mr-auto{margin-right: auto;}
+
+.mr-10{margin-right: 40px;}
+
+.mb-10{
+    margin-bottom: 40px;
+}
+.mb-20{
+    margin-bottom: 80px;
+}
+.mb-40{
+    margin-bottom: 160px;
+}
