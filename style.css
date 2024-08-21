@@ -8,7 +8,7 @@ img{
 }
 
 .container{
-    width: 1024px;
+    width: 940px;
     margin: 0 auto;
 }
 .page-pl{
@@ -20,10 +20,11 @@ img{
 /* header */
 .header{
     display: flex;
+    justify-content: space-between;
 }
-.header img{
+.header-logo{
     width: 200px;
-    margin-right: 401.51px;
+    
 }
 .header-list{
     display: flex;
@@ -147,11 +148,14 @@ img{
 .page-num{
     padding: 16px 26px;
 }
-.page-num:hover{
-   background: #3F5D45;
-   color: #EAF0ED;
-   border: #3F5D45 1px solid;
+.page-num:hover.page-num a {
+    color: #EAF0ED;
 }
+.page-num:hover{
+    background: #3F5D45;
+    border: #3F5D45 1px solid;
+}
+
 .page-num a{
     text-decoration: none;
     color: #3F5D45;
